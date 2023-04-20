@@ -1,0 +1,44 @@
+{
+  "name": "js_final_project",
+  "version": "1.0.0",
+  "description": "Shelter JS application to practice topics from CSIS-3600",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix finalproject3600",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "build": "npm install && npm install --prefix finalproject3600 && npm run build --prefix finalproject3600"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camiloko1989/Final_Project_3380_001.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Express",
+    "React",
+    "Mongo"
+  ],
+  "author": "Group 1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camiloko1989/Final_Project_3380_001/issues"
+  },
+  "homepage": "https://github.com/camiloko1989/Final_Project_3380_001#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.0.1",
+    "path": "^0.12.7",
+    "react-router-dom": "^6.8.2",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

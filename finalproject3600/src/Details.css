@@ -1,0 +1,94 @@
+
+.header-shelter {
+    background-color: #2359a5;
+    text-shadow: 3px 2px 4px rgba(1, 1, 1, 0.5);
+    font-size: 2.5rem;
+    padding: 30px 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 0.3rem;
+    margin: auto;
+  }
+
+ .infoAndMap{
+    width: 100%;
+    display: table;
+    background-image: url('/public/images/white-card.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.main-information{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: table-cell;
+  }
+
+  .container-map{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: table-cell;
+    
+    
+  }
+  
+  .shelter-info{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    
+    
+  }
+  
+  .logo {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .content-shelter {
+    vertical-align: middle;
+    
+    
+  }
+  .shelter{
+    margin: auto;
+    
+  }
+
+
+  @media (max-width: 767px) {
+
+    .infoAndMap{
+      display: block;
+    }
+
+    .container-map{
+      width: 100%;
+      margin: 0;
+      display: block;
+    }
+    
+    .shelter-info{
+      width: 100%;
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+    }
+
+    .shelter{
+      width: 100%;
+      margin: 0%;
+    }
+
+    .button-form{
+      width: 50%;
+      margin: auto;
+    }
+
+  }

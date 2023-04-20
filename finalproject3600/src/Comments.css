@@ -1,0 +1,226 @@
+.container-comments{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  
+}
+
+.comment{
+  background-color: #2359a5;
+  border-radius: 0.5rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.comment-form {    
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #2c2a2a;
+    border-radius: 0.5rem;    
+  }
+  
+  label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #b4b4b4;
+  }
+
+  textarea{
+    margin-top: 20px;
+    margin-bottom: 20;
+  }
+ 
+  button[type="submit"] {
+    width: 20%;
+    padding: 5px;
+    border-radius: 0.5rem;
+    background-color: rgb(52, 75, 148);
+    font-weight: 600;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(192, 136, 31);
+  }
+
+  .card-comment{
+    background-color: white;
+    padding: 2px;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: auto;
+    display: grid;
+  }
+
+  P{
+    margin-left: 20PX;
+    margin-top: 20PX;
+  }
+
+  
+
+  .avatar{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+
+  }
+
+  .name{
+    font-size: 20px;
+    color: rgb(77, 154, 241);
+    float : left ;
+    width: 60%;
+    margin-top: 10px;
+    text-align: left;
+   
+  }
+
+  .user-comment{
+    margin-top: 10px;
+    margin: auto;
+    margin-left: 85px;
+    margin-bottom: 15px;
+    text-align: justify;
+    
+  }
+
+  .container-user{
+    overflow: auto;
+    margin-bottom: 5px;
+    display: inline;
+    width: 100%;
+    
+  }
+
+  .date{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 10%;
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+    background-color: #fff;
+  }
+
+  .message{
+    text-align: center;
+  }
+
+  .button-form{
+    width: 20%;
+    padding: 5px;
+    border-radius: 0.5rem;
+    background-color: #b48709;
+    font-weight: 600;
+    color: white;
+    margin-left: auto;
+
+  }
+
+  .button-form:hover {
+    background-color: #0a58ca;
+   
+  }
+
+  .modal-content{
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position:fixed;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  }
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .message-post{
+    
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(55, 106, 163);
+    font-weight: bold;
+    font-size: 21px;
+  }
+ 
+
+  @media (max-width: 767px) {
+
+    .container-comments{
+      width: 100%;
+      
+    }
+
+    .container-user{
+      margin-bottom: 5px;
+      display: flex;
+      width: 100%;
+      
+    }
+
+    .card-comment{
+      border-radius: 0.5rem;
+      width: 95%;
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .name{
+      width: 70%;
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .date{
+      width: 30%;
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .user-comment{
+      width: 100%;
+      margin-top: 10px;
+      margin: auto;
+      text-align: justify;
+    }
+
+    .avatar{
+      display: none;
+  
+    }
+
+    button[type="submit"] {
+      width: 60%;
+    }
+  
+  }

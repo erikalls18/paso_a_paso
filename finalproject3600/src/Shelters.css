@@ -1,0 +1,37 @@
+.shelter-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fade-in 1s ease-out;
+    transition: transform 0.2s ease-in-out; /* add a transition effect */
+  }
+  
+  
+  .shelter-card:hover {
+    transform: scale(1.1); /* add the hover effect */
+  }
+  #card-header{
+    background-color: #a9b9cf;
+    
+  }
+  
+  .card-body{
+    background-image: url('/public/images/white-card.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .card-title{
+    font-size: 1.2rem;
+    display: inline;
+    
+  }
+  
+  .card-text:first-child {
+    margin-left: 1.2rem;
+    font-size: 1.4rem;
+    color: rgb(52, 75, 148);
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  
